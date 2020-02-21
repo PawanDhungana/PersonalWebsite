@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact</title>
+  </head>
+  <body>
+    <li>Pawan Dhungana</li>
+    <li>St Cloud, MN</li>
+    <li>320-493-2672</li>
+
+    <hr>
+
+    <p>Contact Me</p>
+    <!--This makes use of html forms to the fullest without JavaScript
+      we'll visit this again after insight to javascript
+      action: what action to take in the form
+      enctype: type of encoding
+      label: gives the name for the input type
+      input: gives options like text, email, date, submitButton, etc for users to input
+      textarea: allows user to writer a message-->
+    <form action="mailto:pawandhungana3@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="20"></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<!--index.html is the homepage of the website.-->
+<!DOCTYPE html> <!--  -->
+<html lang="en" dir="ltr">
+
+<!--head contains the information about the webpage which is sent to browser on how it should be handled  -->
+
+<head>
+  <!--the meta tag can read characters from a specific unicode
+   also can be used by search engines to display info about the webpage/site-->
+  <meta charset="utf-8">
+  <!-- contains the title -->
+  <title>Pawan's Personal Site</title>
+</head>
+
+<!--Contains the body of the webpage -->
+
+<body>
+  <!--Formatting the body with table tags-->
+  <table cellspacing = "10">
+    <tr>
+      <td><!--img to insert image, src is the source of the image, alt is the alternative name of the image-->
+      <img src="images/image.jpg" alt="Pawan's PP"></td>
+      <td>  <!--level 1 heading  -->
+        <h1>Pawan Dhungana</h1>
+        <!--The <p> tag is used to enclose everything in the content in a paragraph!-->
+        <p>
+          <!-- Emphasis tag 'em' is used to make the text italic. It also emphasize the text -->
+          <!--<a> tag is the anchor tag with "href" attribute which is used to insert links to another page-->
+          <em>Undegraduate at <a href="https://www.stcloudstate.edu/default.aspx">St Cloud State University</a></em>
+          <!--br breaks the line  -->
+          <br />
+          <em><a href="https://www.stcloudstate.edu/csit/">Computer Science</a></em>
+        </p>
+        <p>My name is <strong><a href="http://pawandhungana.com">Pawan Dhungana</a></strong>. I am an undegraduate student at <strong>St Cloud State University</strong> in my senior year. I am a Computer Science major
+          and minor in Mathematics. I have deep interests in the programming field. I am familiar with the languages C++, JAVA, HTML, CSS, JavaScript, Node.js,
+          Bootstrap, RestAPIs, Dart and C#. Currently I am actively looking for an internship opportunities to bring my knowledge into effect.</p>
+      </td>
+    </tr>
+  </table>
+
+
+  <!--hr puts a horizontal line -->
+  <hr>
+
+  <!--h3 is the level 3 heading-->
+  <h3>Education</h3>
+  <!--ul is the unordered list type like bullet points.
+    li tag is the list of items in the list-->
+  <ul>
+    <li>Pearls English School (Lower Secondary)</li>
+    <li>KEBS Academy (Secondary)</li>
+    <li>Prime English School (Higher Secondary)</li>
+    <li>Ambition Academy (High School)</li>
+    <li>St Cloud State University (College)</li>
+  </ul>
+
+<hr>
+
+<!--creating a table to make the experiences look a little more organized -->
+  <h3>Experiences</h3>
+  <table cellspacing="10">
+    <!--This part includes table header, body and maybe footer in different sections
+     because it will be easier when formatting the website with CSS or JavaScript later-->
+    <thead>
+      <th>Dates</th>
+      <th>Work</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2019-2020</td>
+        <td>Lab Consultant at Department of Computer Science, SCSU</td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>Web Master at Computer Science Club, SCSU</td>
+      </tr>
+    </tbody>
+  </table>
+
+<hr>
+
+  <!--skills section using tables-->
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>C++</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>JAVA</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>JavaScript </td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>SQL </td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    </tr>
+  </table>
+
+<hr>
+
+  <!--the hobbies can be accessed using the <a> tag also
+  For this we create a .html file and insert its path to this html file below!-->
+  <a href="hobbies.html">My Hobbies</a>
+  <br>
+
+  <!--link to contact me webpage-->
+  <a href="contact_me.html">Contact me</a>
+
+  <br>
+  <!--the download attribute downloads the url file into the machine, there is no order of the attributes in the html tags -->
+  <a download href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">HTML Cheatsheet</a>
+</body>
+
+</html>
