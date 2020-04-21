@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;    ;
+}
+
+.pro{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.topContainer{
+    position: relative;
+    padding-top: 100px;
+    background-color: #97e5ef;
+}
+
+.topCloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottomCloud{
+    position: absolute;
+    left: 300px;
+}
+
+.profileImage{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.skillImage1, .skillImage2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.skillTable, .envTable{
+    padding-left: 35%;
+}
